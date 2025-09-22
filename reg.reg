@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Wine\DllOverrides]
+"msftedit"="native,builtin"
+"msxml3"="native,builtin"
+"msxml3r"="native,builtin"
+"msxml6"="native,builtin"
+"msxml6r"="native,builtin"
+"riched20"="native,builtin"
+"riched32"="native,builtin"
+"usp10"="native,builtin"
+
+[HKEY_CURRENT_USER\Software\Wine\Direct3D]
+"MaxVersionGL"=dword:00030002
+
+[HKEY_CURRENT_USER\Software\Wine\Direct2D]
+"max_version_factory"=dword:00000000
+
